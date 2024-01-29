@@ -1,0 +1,16 @@
+apiVersion: backstage.io/v1alpha1
+kind: Component
+metadata:
+  name: devx-1054
+  title: Devx-1054
+  description: some description blah blah blah
+  annotations:
+    github.com/project-slug: bcgov/developer-experience-devx-1054
+    backstage.io/techdocs-ref: dir:.
+    bcgovpubcode.gov.bc.ca/ministry: CITZ
+    bcgovpubcode.gov.bc.ca/product_name: Devx-1054
+    bcgovpubcode.gov.bc.ca/product_owner: Monica
+spec:
+  type: documentation
+  lifecycle: experimental
+  owner: ${{ default(parameters.owner, "developer-experience", true) }}
